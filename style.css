@@ -11,6 +11,12 @@ body{
 
 }
 
+textarea {
+    width: 90%;
+    height: 46em;
+    border-radius: 8px;
+}
+
 button{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: rgba(0, 0, 0, 0.8);

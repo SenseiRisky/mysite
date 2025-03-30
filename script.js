@@ -1,5 +1,6 @@
 /* --- FUNCTION FOR THE CLOCK --- */
 
+
 function startTime() {
     const today = new Date();
     let h = today.getHours();
@@ -24,3 +25,12 @@ function checkDay() {
     $("#date").html(year + "-" + month + "|" + day)
 }
 
+function saveNotes() {
+    var notes = $("#notes").val()
+    locatStorage.setItem("notes", notes)
+}
+
+$(document).ready(function() {
+
+$("#saveNotesButton").click(saveNotes)
+})
