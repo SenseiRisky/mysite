@@ -34,3 +34,5 @@ $(document).ready(function() {
 
 $("#saveNotesButton").click(saveNotes)
 })
+
+checkDay()
